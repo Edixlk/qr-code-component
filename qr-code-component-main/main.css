@@ -83,9 +83,6 @@ p {
 }
 
 @media screen and (max-width: 375px) {
-  body {
-    background-color: red;
-  }
 
   .container {
     width: 300px;
