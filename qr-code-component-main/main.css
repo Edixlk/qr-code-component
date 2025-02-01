@@ -82,6 +82,33 @@ p {
   margin-bottom: 1em;
 }
 
+/* for github link*/
+
+.github-link {
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+  float: right;
+}
+
+
+/* text on link */
+
+.github-link a {
+  display: block;
+  font-size: clamp(10px, calc(0.4em + 3em), 30px);
+  color: var(--Slate-500);
+  text-decoration: none;
+}
+
+/* github icon */
+
+.fa-github {
+  margin-right: 5px;
+}
+
+/* media queries for mobile phone */
+
 @media screen and (max-width: 375px) {
 
   .container {
@@ -90,5 +117,12 @@ p {
 
   .container-text {
     padding: 17px, 10px;
+  }
+
+  .github-link {
+    position: static;
+    display: flex;
+    align-self: center;
+    margin-top: 2.2em;
   }
 }
