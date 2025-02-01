@@ -126,3 +126,16 @@ p {
     margin-top: 2.2em;
   }
 }
+
+/* medium screens */
+
+@media screen and (max-width:768px) {
+
+  .github-link {
+    position: static;
+    display: flex;
+    align-self: center;
+    margin-top: 2.2em;
+  }
+  
+}
